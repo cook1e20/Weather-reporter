@@ -1,3 +1,5 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/Cook1e20/pen/QawGeN.
+Weather reporter app created for free code camp 
+
+Can be viewed at https://cook1e20.github.io/Weather-reporter/
 
  
