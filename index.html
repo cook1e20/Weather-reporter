@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather report</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!--Navbar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+  <div class="container navbar-text">
+    <a class="navbar-brand" href="#page-top">S Cooke Dev <btn class="fa fa-anchor"></btn></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<div class="weather-about">
+  <h1 class="text-center sub-page-title">Local Weather reporter</h1>
+<p>My second JavaScript, API project a local weather reporter, again this is from FreeCodeCamp and awesome resource to delve into web development. <br>
+The projects first challenge was to source the location of the user, to do this I utilised HTML5 Geolocation, this allowed me to get the geographical position of a user although due to privacy issues, the position is not available unless the user allows access. Once the Geolocation was received, in longitude and latitude the next challenge was to utilise this data to access the FreeCodeCamp weather API and return the weather data for that location, and to display this data, for this again I used a JSON request, and displayed the data using JQuery. 
+Finally the °C to °F uses a small bit of JavaScript code to change the values and JQuery to change the display. 
+Here is it.. 
+  
+  </p>
+
+  <div class="container center-box">
+    <div class="location"></div>
+    <div class="weather"></div>
+    <div><img class="icon"></img>
+    </div>
+    <div><span class="temp"></span><span id="degree"></span></div>
+  </div>
+  
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

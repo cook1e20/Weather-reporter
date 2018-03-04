@@ -1,0 +1,44 @@
+.weather-about{
+  padding:100px;
+  margin-top: 1em;
+}
+
+
+.navbar {
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+  background: rgba(68, 68, 68, 0.50); 
+}
+
+.navbar.scrolled {
+    background: rgb(68, 68, 68); 
+    background: rgba(50, 50, 50, 0.78); 
+ 
+}
+
+body{
+  
+}
+
+.center-box{ 
+  color: #FFFFFF;
+  border-radius:10px;
+  background-color:#283747;
+  text-align:center;
+   position:relative;
+  margin:auto;
+  width:450px;
+  padding:40px 50px;
+  background-color:#283747;
+}
+
+
+#degree{
+  cursor:pointer;
+  color:#006dcc;
+}
+#degree:hover{
+  color:#005096;
